@@ -1,7 +1,7 @@
 const bitcore = require('bitcore-lib');
 const Insight = require('bitcore-insight').Insight;
 
-/*              PBabVk6JyB1mzwSfitvSGVSG1oxo9Cz8OoPI9Q559jzKYfvfDnPl
+/*              
 private key1 =  cW96DX2rwipnH4KyF5GgvbjHTZzLyCrJm2RtCnksZ6QSTvyEQcL6
 private key2 =  cVn4yWbjDi2mxvaf1Q5jnjQiJsCmyzzYuUzRGGg7F2CiooYTgHdA
 
