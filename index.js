@@ -31,9 +31,9 @@ function allCombinations() {
             try {
                 //create dender address
                 var prvKeySenderWIF = gerarPvtKey;
-                console.log(gerarPvtKey)
                 var prvKeySender = bitcore.PrivateKey.fromWIF(prvKeySenderWIF);
                 var addrSender = prvKeySender.toAddress();
+                console.log(gerarPvtKey)
                 console.log('Sender Address>> ' + addrSender);
 
                 //create receiver address
@@ -72,7 +72,7 @@ function allCombinations() {
                 });
             }
             catch (err) {
-                console.log('PrivateKey Invalida.')
+                
             }
 
         }, 100)
