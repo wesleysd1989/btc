@@ -30,7 +30,7 @@ insight.getUtxos(addrSender, function (err, utxos) {
         console.log('Unspent Transaction OutPut ' + utxos)
         var tx = bitcore.Transaction();
         tx.from(utxos);
-        tx.to(addrReceiver, 100000000);
+        tx.to(addrReceiver, 10000);
         tx.change(addrSender);
         tx.fee(50000);
 
